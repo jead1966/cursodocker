@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  projeto-docker:
+    container_name: projeto-docker
+    image: httpd:latest
+    ports:
+      - "80:80"
+    volumes:
+      - meusite:/var/www/html
+      - /opt/apps:/usr/local/apache2/htdocs
+
+volumes:
+  meusite:
+    name: meusite
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+A
+
